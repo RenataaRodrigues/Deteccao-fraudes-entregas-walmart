@@ -28,7 +28,7 @@ Na versão apresentada no bootcamp fiz as consultas em SQL, um dashboard no Powe
 
 ## Dashboard
 
-Painel de monitoramento no Power BI ([dashboard/monitoramento-entregas.pbix](dashboard/monitoramento-entregas.pbix)).
+Painel de monitoramento no Power BI ([dashboard/monitoramento-entregas.pbix](dashboard/monitoramento-entregas.pbix)), com filtros de região e mês.
 
 ![Dashboard de monitoramento das entregas](imagens/dashboard.png)
 
@@ -42,8 +42,8 @@ Painel de monitoramento no Power BI ([dashboard/monitoramento-entregas.pbix](das
 | Pedidos com mais de 15 itens têm 25% mais problemas | Não há diferença por tamanho (p = 0,45) |
 | A coluna de valor do pedido está vazia | Os valores existem. Foi um problema na minha importação para o SQL |
 | 1.357 itens de mercado perdidos | 1.393. A consulta com JOIN e OR não contava todas as colunas de produto |
-| Dashboard: "Timothy Brown" com 8 itens | São dois entregadores diferentes com o mesmo nome, somados pelo nome. Agora o gráfico mostra nome e ID |
-| Dashboard: pizza de "Categoria com mais itens perdidos" | A pizza contava os produtos do cadastro, não os perdidos. Agora mostra o valor perdido por tipo de produto |
+| Dashboard: "Timothy Brown" com 8 itens | São dois entregadores diferentes com o mesmo nome, somados pelo nome. Agora a tabela mostra nome e ID |
+| Dashboard: pizza de "Categoria com mais itens perdidos" | A pizza contava os produtos do cadastro, não os perdidos. Agora o painel compara a % dos itens e a % do valor perdido de eletrônicos e mercado |
 | Dashboard: taxa de 0,15 | 15,0% dos pedidos têm item faltando. O número estava certo, mas aparecia como fração |
 
 Alguns pontos da primeira versão continuam valendo: eletrônicos concentram o prejuízo, a comunicação com o cliente na entrega e o teste A/B das medidas.
