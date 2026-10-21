@@ -1,6 +1,6 @@
 # Fraudes em entregas do Walmart
 
-Projeto final do bootcamp de Data Science da Data Tech Florida (fevereiro de 2025), revisado depois da entrega.
+Projeto final do bootcamp de Data Science da Datatech Florida (fevereiro de 2025), revisado depois da entrega.
 
 O desafio: o Walmart recebe reclamações de itens que não chegam ao cliente nas entregas da região de Orlando. A partir de 10.000 pedidos de 2023, eu precisava descobrir se a fraude vem dos motoristas, dos clientes ou de alguma falha do processo, e propor medidas para reduzir o prejuízo.
 
